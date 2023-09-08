@@ -9,3 +9,4 @@ MODELS in progress
 
 1) GNN for Classification
 2) Transformer for reconstruction and subsequent classification
+3) Encoder for limb ---> neuron
