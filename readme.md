@@ -1,12 +1,12 @@
 # Data/A3D3_Hackathon_230919
-Two-photon calcium imaging dataset
+Two-photon calcium imaging dataset\
 https://drive.google.com/drive/folders/1MVDSZs-6K-tGb79wU9wHuQ2Veoho-LiP?usp=sharing
 
 ## Neural signals
 ### How it is made
 Raw two-photon calcium images are processed using suite2p. It extracts fluorescence traces of all the segmented neurons.\
-    + https://suite2p.readthedocs.io/en/latest/outputs.html
-    + https://www.biorxiv.org/content/10.1101/061507v2.abstract
++ https://suite2p.readthedocs.io/en/latest/outputs.html
++ https://www.biorxiv.org/content/10.1101/061507v2.abstract
 ### Files
 + ffneu_z_sel.npy
     + fluoresence traces. (num_neuron, len_seq_neural)
