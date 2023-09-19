@@ -4,7 +4,7 @@ https://drive.google.com/drive/folders/1MVDSZs-6K-tGb79wU9wHuQ2Veoho-LiP?usp=sha
 
 ## Neural signals
 ### How it is made
-Raw two-photon calcium images are processed using suite2p. It extracts fluorescence traces of all the segmented neurons.
+Raw two-photon calcium images are processed using suite2p. It extracts fluorescence traces of all the segmented neurons.\
     + https://suite2p.readthedocs.io/en/latest/outputs.html
     + https://www.biorxiv.org/content/10.1101/061507v2.abstract
 ### Files
@@ -25,8 +25,8 @@ It seems that ffneu is too noisy to relate to behavior, or we don't have enough 
 
 ## Behavior: Limb coordinates
 ### How it is made
-Limb coordinates were predicted from video frames using Deeplabcut.
-    + http://www.mackenziemathislab.org/deeplabcut
+Limb coordinates were predicted from video frames using Deeplabcut.\
++ http://www.mackenziemathislab.org/deeplabcut
 ### Files
 + behav_coord_likeli.npy
     + Continuous limb coordinates of a running mouse. (8, len_seq_behav). 8 = x and y coordinate for each four limb (right front, right hind, left front, left hind)
