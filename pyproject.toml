@@ -1,18 +1,17 @@
-[tool.poetry]
-name = "neuro-hack-2023"
-version = "0.1.0"
-description = "Hacking mouse brains"
-authors = ["wbenoit26 <90333821+wbenoit26@users.noreply.github.com>"]
-license = "MIT"
-readme = "README.md"
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.tox
+  | _build
+  | dist
+  | docs
+)/
+'''
 
-[tool.poetry.dependencies]
-python = ">=3.9,<3.11"
-matplotlib = "^3.8.0"
-numpy = "^1.26.0"
-torch = "^1.10"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.isort]
+known_first_party = ["neuro_hack_2023"]
+multi_line_output = 3
+include_trailing_comma = true
